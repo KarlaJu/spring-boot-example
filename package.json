@@ -1,0 +1,11 @@
+{
+  "name": "maestria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:KarlaJu/spring-boot-example.git",
+  "author": "Karla <karla@makingdevs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
