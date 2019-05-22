@@ -1,0 +1,9 @@
+<searchComponent>
+    <script type="text/x-template" id="checkbox-template">
+      <div class="checkbox-wrapper" @click="check">
+        <button @click="check"> Button </button>
+        <div :class="{ checkbox: true, checked: checked }"></div>
+        <div class="title">{{ title }}</div>
+      </div>
+    </script>
+</searchComponent>

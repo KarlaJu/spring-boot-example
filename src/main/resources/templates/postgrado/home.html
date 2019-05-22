@@ -1,2 +1,16 @@
 <div th:replace="postgrado/header :: header"></div>
+hola
+<script type="text/x-template" id="checkbox-template">
+	<div class="checkbox-wrapper" @click="check">
+    <button @click="check"> Button </button>
+		<div :class="{ checkbox: true, checked: checked }"></div>
+		<div class="title">{{ title }}</div>
+	</div>
+</script>
+<div th:replace="postgrado/searchComponent :: searchComponent"></div>
+<div id="app">
+  <my-checkbox></my-checkbox>
+</div>
+<script src="/js/home/components/searchComponent.js"></script>
+<script src="/js/home/index.js"></script>
 <div th:replace="postgrado/footer :: footer"></div>
