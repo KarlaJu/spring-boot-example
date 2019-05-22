@@ -1,4 +1,4 @@
 # Prueba de concepto de spring boot con vue
 
-##Levantar proyecto
+## Levantar proyecto
 ```./gradlew clean bootRun```
